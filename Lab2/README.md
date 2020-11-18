@@ -1,3 +1,6 @@
 # Lab_2 Rejestracja użytkowników
 
-## Work in process
+## Lab_2 Done
+* In next 12 hours, this repo will be completed.*
+
+## Still not in PaaS.
