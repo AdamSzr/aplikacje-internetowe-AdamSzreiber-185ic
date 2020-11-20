@@ -11,6 +11,7 @@
 ## Opracowano następujące widoki:
 
 #### Home View -> ścieżka ''
+* Jak widać dodatkowo zamieściłem Sign Up view.
 ![Home View](md_files/home.png)
 
 #### Login -> ścieżka '/account/login/'
@@ -23,9 +24,11 @@
 ![Dashboard View](md_files/account_dashboard.png)
 
 #### Password reset + Backend E-MAIL -> ścieżka '/account/password_reset/'
+* Wyświetlenie zawartości e-mail w ConsoleBackend. 
 ![Passw Reset View](md_files/passw_reset.png)
 
 #### Password change -> ścieżka '/account/password_change/'
+* Dodatkowa opcja Password Change View.
 ![Passw Change View](md_files/passw_change.png)
 
 
