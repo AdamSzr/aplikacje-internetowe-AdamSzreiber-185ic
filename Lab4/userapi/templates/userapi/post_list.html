@@ -1,0 +1,14 @@
+{% extends 'userapi/base.html' %}
+
+{% block content %}
+    {% for post in posty %}
+        <div class="post " id="id_post">
+            <h1>{{ post.title }}</h1>
+            <p>{{ post.body|linebreaksbr }}</p>
+            <div >
+                <p class="zapelniacz">  </p>
+                <p class="author">published by: {{ post.author }}</p>
+            </div>
+        </div>
+    {% endfor %}
+{% endblock %}
