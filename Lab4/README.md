@@ -1,6 +1,6 @@
 # Lab_4 REST API z DRF
 ##[Strona Główna](https://adam-szreiber-api.herokuapp.com/)
-##[Swagger](https://adam-szreiber-api.herokuapp.com/)
+##[Swagger](https://adam-szreiber-api.herokuapp.com/swagger/)
 
 ### Wykorzystano:
 * Python - Django
