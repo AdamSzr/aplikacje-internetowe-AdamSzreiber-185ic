@@ -1,12 +1,12 @@
 # Lab_5 Web Scraping
-## [Link do zadania](https://zacniewski.gitlab.io/teaching/2020-internet-apps/)
+##[Link do zadania](https://zacniewski.gitlab.io/teaching/2020-internet-apps/)
  
-#### Wykorzystano:
+### Wykorzystano:
 * Python - moduły [re,csv,requests,bs4]
  
 ## W każdym z poniższych przykładów dodałem własne komentarze ( w kodzie ), oraz fragmenty z python DOCS, które tłumaczą pewne zagadnienia
  
-## Zadanie: należy przeanalizować i wdrożyć kod z repozytorium do zajęć,
+#### Zadanie: należy przeanalizować i wdrożyć kod z repozytorium do zajęć,
  
 ## Instalacja modułów
 Po domyślnej instalacji Python'a 3.9 nie posiadamy wymaganych modułów. Należy wykonać instalację.
@@ -25,9 +25,10 @@ Po domyślnej instalacji Python'a 3.9 nie posiadamy wymaganych modułów. Należ
  
 ## Przykład 2. plik - 4-web-scraping-example5
 * W tym przykładzie wybierane są wszystkie div'y które mają przypisaną klasę 'thumbnail'
-* Następnie wyświetlany jest napis "liczba top items", a wartość 3, ponieważ długość tablicy z podpunktu wyżej jest = 3.
-* Dla każdego div'a wybranego w poprzednim podpunkcie, kolejnym krokiem było wybranie wszystkich elementów 'a' z przypisaną klasą 'title', ale tylko takie które mają element 'h4' jako rodzica.
+* 1 linia ->  wyświetlany jest napis "liczba top items", a wartość 3, ponieważ długość tablicy z podpunktu wyżej jest = 3.
+* Dla każdego div'a wybranego w 1-szym podpunkcie, kolejnym krokiem było wybranie wszystkich elementów 'a' z przypisaną klasą 'title', ale tylko takie które mają element 'h4' jako rodzica.
 * Kolejno, wybrane zostały elementy 'div' z przypisaną klasa 'ratings', z elementu o idx=0, pobrano text
+* 2 linia to -> efekt widoczny to złączenie podpunktu 3 i 4 ( tytuł oraz liczba odwiedzin )
 ![](md_files/45.png) 
  
 ## Przykład 3. plik - 4-web-scraping-example6
@@ -55,6 +56,7 @@ Efekt wypisania w konsoli. (keys = nagłówki, values = dane)
 Widok po zapisaniu do pliku.
 ![](md_files/csv.png) 
 Przeprowadziłem równieź import do Excel'a
+
 ![](md_files/csv_import.png) 
 ![](md_files/csv_excel.png) 
  
