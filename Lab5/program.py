@@ -15,153 +15,153 @@ import re;
 
 ################################# 4-web-scraping-example4.py #############################################
 
-# page = requests.get(
-#     "https://codedamn-classrooms.github.io/webscraper-python-codedamn-classroom-website/"
-# )
-# soup = BeautifulSoup(page.content, "html.parser")
+page = requests.get(
+    "https://codedamn-classrooms.github.io/webscraper-python-codedamn-classroom-website/"
+)
+soup = BeautifulSoup(page.content, "html.parser")
 
-# # Create all_h1_tags as empty list
-# all_h1_tags = []
+# Create all_h1_tags as empty list
+all_h1_tags = []
 
-# # Set all_h1_tags to all h1 tags of the soup
-# for element in soup.select("h1"):
-#     all_h1_tags.append(element.text) # there is only 2 elements.
+# Set all_h1_tags to all h1 tags of the soup
+for element in soup.select("h1"):
+    all_h1_tags.append(element.text) # there is only 2 elements.
 
-# # Create seventh_p_text and set it to 7th p element text of the page
-# seventh_p_text = soup.select("p")[6].text # returns '7 reviews'
+# Create seventh_p_text and set it to 7th p element text of the page
+seventh_p_text = soup.select("p")[6].text # returns '7 reviews'
 
-# print(all_h1_tags, seventh_p_text)  
+print(all_h1_tags, seventh_p_text)  
 
 ################################# 4-web-scraping-example5.py #############################################
 
-# #Make a request
-# page = requests.get(
-#     "https://codedamn-classrooms.github.io/webscraper-python-codedamn-classroom-website/"
-# )
-# soup = BeautifulSoup(page.content, "html.parser")
+#Make a request
+page = requests.get(
+    "https://codedamn-classrooms.github.io/webscraper-python-codedamn-classroom-website/"
+)
+soup = BeautifulSoup(page.content, "html.parser")
 
-# # Create top_items as empty list
-# top_items = []
+# Create top_items as empty list
+top_items = []
 
-# # Extract and store in top_items according to instructions on the left
-# products = soup.select("div.thumbnail") # wybierz wszystkie div-y z przypisana klasa 'thumbnail'
-# print("Liczba top items = ", len(products))
-# for elem in products:
-#     title = elem.select("h4 > a.title")[0].text
-#     # DOCS
-#     # It is called as element > element selector. 
-#     # It is also known as the child combinator selector which means that it selects only those elements which are direct children of a parent. 
-#     # Elements which are not the direct child of the specified parent is not selected.
-#     # ZATEM. wybieramy  wszystkie elemenety 'a' z przypisana klasa title, takie które znajdują się w wewnątrz znacznika h4, 
-#     # znacznik h4 jest bezposrednim rodzicem dla znaczkina 'a'
-#     review_label = elem.select("div.ratings")[0].text # wszystkie div'y z przypisana klasa 'ratings'
-#     info = {"title": title.strip(), "review": review_label.strip()} # strip returns a copy of the string with both leading and trailing characters removed
-#     """
-#     string.strip([chars])
-#     Parameter: 
-#     There is only one optional parameter in it:
-#     1)chars - a string specifying 
-#     the set of characters to be removed. 
-#     """
-#     top_items.append(info)
+# Extract and store in top_items according to instructions on the left
+products = soup.select("div.thumbnail") # wybierz wszystkie div-y z przypisana klasa 'thumbnail'
+print("Liczba top items = ", len(products))
+for elem in products:
+    title = elem.select("h4 > a.title")[0].text
+    # DOCS
+    # It is called as element > element selector. 
+    # It is also known as the child combinator selector which means that it selects only those elements which are direct children of a parent. 
+    # Elements which are not the direct child of the specified parent is not selected.
+    # ZATEM. wybieramy  wszystkie elemenety 'a' z przypisana klasa title, takie które znajdują się w wewnątrz znacznika h4, 
+    # znacznik h4 jest bezposrednim rodzicem dla znaczkina 'a'
+    review_label = elem.select("div.ratings")[0].text # wszystkie div'y z przypisana klasa 'ratings'
+    info = {"title": title.strip(), "review": review_label.strip()} # strip returns a copy of the string with both leading and trailing characters removed
+    """
+    string.strip([chars])
+    Parameter: 
+    There is only one optional parameter in it:
+    1)chars - a string specifying 
+    the set of characters to be removed. 
+    """
+    top_items.append(info)
 
-# print(top_items)
+print(top_items)
 
 
 ################################# 4-web-scraping-example6.py #############################################
 
 
-# # Make a request
-# page = requests.get(
-#     "https://codedamn-classrooms.github.io/webscraper-python-codedamn-classroom-website/"
-# )
-# soup = BeautifulSoup(page.content, "html.parser")
+# Make a request
+page = requests.get(
+    "https://codedamn-classrooms.github.io/webscraper-python-codedamn-classroom-website/"
+)
+soup = BeautifulSoup(page.content, "html.parser")
 
-# # Create top_items as empty list
-# image_data = []
+# Create top_items as empty list
+image_data = []
 
-# # Extract and store in top_items according to instructions on the left
-# images = soup.select("img")
-# print("Liczba obrazków =", len(images))
-# for image in images:
-#     # print(type(image))
-#     src = image.get("src")
-#     alt = image.get("alt")
-#     image_data.append({"src": src, "alt": alt})
+# Extract and store in top_items according to instructions on the left
+images = soup.select("img")
+print("Liczba obrazków =", len(images))
+for image in images:
+    # print(type(image))
+    src = image.get("src")
+    alt = image.get("alt")
+    image_data.append({"src": src, "alt": alt})
 
-# print(image_data) # ten przykład jest zbyt prosty aby cokolwiek opisywać.
+print(image_data) # ten przykład jest zbyt prosty aby cokolwiek opisywać.
 
 ################################# 4-web-scraping-example6_lab.py  #############################################
 
 
-# # Make a request
-# page = requests.get(
-#     "https://codedamn-classrooms.github.io/webscraper-python-codedamn-classroom-website/"
-# )
-# soup = BeautifulSoup(page.content, "html.parser")
+# Make a request
+page = requests.get(
+    "https://codedamn-classrooms.github.io/webscraper-python-codedamn-classroom-website/"
+)
+soup = BeautifulSoup(page.content, "html.parser")
 
-# # Create top_items as empty list
-# all_links = []
+# Create top_items as empty list
+all_links = []
 
-# # Extract and store in top_items according to instructions on the left
-# links = soup.select("a")
-# print("Liczba linków = ", len(links))
-# for ahref in links:
-#     text = ahref.text # wybiera text pomiedzy znaczkikami 'a'
-#     text = text.strip() if text is not None else ""  # returns  copy of text, after whitespace removing, if text != None, else returns string.empty
-#     href = ahref.get("href")
-#     href = href.strip() if href is not None else ""
-#     all_links.append({"href": href, "text": text})
+# Extract and store in top_items according to instructions on the left
+links = soup.select("a")
+print("Liczba linków = ", len(links))
+for ahref in links:
+    text = ahref.text # wybiera text pomiedzy znaczkikami 'a'
+    text = text.strip() if text is not None else ""  # returns  copy of text, after whitespace removing, if text != None, else returns string.empty
+    href = ahref.get("href")
+    href = href.strip() if href is not None else ""
+    all_links.append({"href": href, "text": text})
 
-# print(all_links)
+print(all_links)
 
 ################################# 4-web-scraping-example7.py  #############################################
 
 
 
-# # Make a request
-# page = requests.get(
-#     "https://codedamn-classrooms.github.io/webscraper-python-codedamn-classroom-website/")
-# soup = BeautifulSoup(page.content, 'html.parser')
+# Make a request
+page = requests.get(
+    "https://codedamn-classrooms.github.io/webscraper-python-codedamn-classroom-website/")
+soup = BeautifulSoup(page.content, 'html.parser')
 
-# # Create top_items as empty list
-# all_products = []
+# Create top_items as empty list
+all_products = []
 
-# # Extract and store in top_items according to instructions on the left
-# products = soup.select('div.thumbnail')
-# for product in products:
-#     name = product.select('h4 > a')[0].text.strip().replace("\"","") # wybierz element 'a' taki który jest rodzicem 'h4', potem wez element 'a' pod idx[0], wybierz text tego elementu i wykonaj func strip() 
-#     description = product.select('p.description')[0].text.strip() #.replace("\"","").replace(",",'').replace('\t','').replace('\n','') 
-#     description = re.sub("[\n\t.,\"]","",description)
-#     # wybierz elementy p taki który ma przypisana klase 'descrption', potem wez element 'p' z pod idx[0], wybierz text tego elementu i wykonaj func strip()
-#     price = product.select('h4.price')[0].text.strip().replace("\"","")# 'h4' z klasa 'price'
-#     reviews = product.select('div.ratings')[0].text.strip().replace("\"","") # 'div' z klasa 'ratings'
-#     image = product.select('img')[0].get('src').replace("\"","") # wybierz wszystkie znaczniki 'img', wez ten o idx[0]. wybierz z tego elementu atrybut 'src' -> konkretnie  wartość  klucza 'src'
+# Extract and store in top_items according to instructions on the left
+products = soup.select('div.thumbnail')
+for product in products:
+    name = product.select('h4 > a')[0].text.strip().replace("\"","") # wybierz element 'a' taki który jest rodzicem 'h4', potem wez element 'a' pod idx[0], wybierz text tego elementu i wykonaj func strip() 
+    description = product.select('p.description')[0].text.strip() #.replace("\"","").replace(",",'').replace('\t','').replace('\n','') 
+    description = re.sub("[\n\t.,\"]","",description)
+    # wybierz elementy p taki który ma przypisana klase 'descrption', potem wez element 'p' z pod idx[0], wybierz text tego elementu i wykonaj func strip()
+    price = product.select('h4.price')[0].text.strip().replace("\"","")# 'h4' z klasa 'price'
+    reviews = product.select('div.ratings')[0].text.strip().replace("\"","") # 'div' z klasa 'ratings'
+    image = product.select('img')[0].get('src').replace("\"","") # wybierz wszystkie znaczniki 'img', wez ten o idx[0]. wybierz z tego elementu atrybut 'src' -> konkretnie  wartość  klucza 'src'
 
-#     all_products.append({
-#         "name": name,
-#         "description": description,
-#         "price": price,
-#         "reviews": reviews,
-#         "image": image
-#     })
+    all_products.append({
+        "name": name,
+        "description": description,
+        "price": price,
+        "reviews": reviews,
+        "image": image
+    })
 
 
-# keys = all_products[0].keys()
-# print("keys = ", keys)
-# print("\nvalues = ",all_products)
+keys = all_products[0].keys()
+print("keys = ", keys)
+print("\nvalues = ",all_products)
 
-# with open('products.csv', 'w', newline='') as output_file:
-#     # DOCS
-#     # If newline is '', no translation takes place.
-#     # if newline is None, any '\n' characters written are translated to the system default line separator, os.linesep
-#     # os.linesep
-#     # The string used to separate (or, rather, terminate) lines on the current platform. 
-#     # This may be a single character, such as '\n' for POSIX, or multiple characters, for example, '\r\n' for Windows.
-#     #  Do not use os.linesep as a line terminator when writing files opened in text mode (the default); use a single '\n' instead, on all platforms.
-#     dict_writer = csv.DictWriter(output_file, keys,dialect='excel')
-#     dict_writer.writeheader()
-#     dict_writer.writerows(all_products)
+with open('products.csv', 'w', newline='') as output_file:
+    # DOCS
+    # If newline is '', no translation takes place.
+    # if newline is None, any '\n' characters written are translated to the system default line separator, os.linesep
+    # os.linesep
+    # The string used to separate (or, rather, terminate) lines on the current platform. 
+    # This may be a single character, such as '\n' for POSIX, or multiple characters, for example, '\r\n' for Windows.
+    #  Do not use os.linesep as a line terminator when writing files opened in text mode (the default); use a single '\n' instead, on all platforms.
+    dict_writer = csv.DictWriter(output_file, keys,dialect='excel')
+    dict_writer.writeheader()
+    dict_writer.writerows(all_products)
 
 
 ################################# 4-web-scraping-part1.py #############################################
@@ -190,7 +190,10 @@ print("history = ", user1.history) #  We can use the history property of the Res
 # >>> r.history
 # [<Response [301]>]
 # prevent redirections = requests.get('http://github.com/', allow_redirects=False)
+
+
 print('---------------------------- Test 3 ------------------------------------\n')
+
 html_doc = """<html>
 <head>
     <title>Moja pierwsza strona!</title>
