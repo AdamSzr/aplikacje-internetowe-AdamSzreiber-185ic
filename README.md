@@ -5,4 +5,4 @@
  * [Lab_3](https://github.com/AdamSzr/aplikacje-internetowe-AdamSzreiber-185ic/tree/master/Lab3) Różne sposoby uwierzytelniania ⟶ [LINK](https://a-social-website.herokuapp.com/):white_check_mark:
 
  * [Lab_4](https://github.com/AdamSzr/aplikacje-internetowe-AdamSzreiber-185ic/tree/master/Lab4) REST API z DRF⟶ [LINK](https://adam-szreiber-api.herokuapp.com/):mag:
- * [Lab_5](https://github.com/AdamSzr/aplikacje-internetowe-AdamSzreiber-185ic/tree/master/Lab_5) Web Scraping :mag:
+ * [Lab_5](https://github.com/AdamSzr/aplikacje-internetowe-AdamSzreiber-185ic/tree/master/Lab5) Web Scraping :mag:
