@@ -1,12 +1,12 @@
 # Lab_5 Web Scraping
 ## [Link do zadania](https://zacniewski.gitlab.io/teaching/2020-internet-apps/)
  
-### Wykorzystano:
+#### Wykorzystano:
 * Python - moduły [re,csv,requests,bs4]
  
 ## W każdym z poniższych przykładów dodałem własne komentarze ( w kodzie ), oraz fragmenty z python DOCS, które tłumaczą pewne zagadnienia
  
-#### Zadanie: należy przeanalizować i wdrożyć kod z repozytorium do zajęć,
+## Zadanie: należy przeanalizować i wdrożyć kod z repozytorium do zajęć,
  
 ## Instalacja modułów
 Po domyślnej instalacji Python'a 3.9 nie posiadamy wymaganych modułów. Należy wykonać instalację.
