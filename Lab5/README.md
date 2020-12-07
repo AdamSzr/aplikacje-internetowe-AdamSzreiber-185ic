@@ -80,7 +80,7 @@ Przeprowadziłem równieź import do Excel'a
  
 #### plusy za własne przemyślenia, analizę dokumentacji i idące za nimi modyfikacje w projekcie.
 * Za pomocą Regex wykonałem  modyfikacje w podpunkcie z csv, aby pozbyć się wszystkich znaków nowej linii, tabulatorów, oraz '.' ',' '"'
- 
+* Dokumentacja jest na tyle obszerna, że nie ma problemu ze znalezieniem potrzebnych informacji. 
  
 
 
