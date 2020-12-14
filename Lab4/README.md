@@ -1,6 +1,6 @@
 # Lab_4 REST API z DRF
-##[Strona Główna](https://adam-szreiber-api.herokuapp.com/)
-##[Swagger](https://adam-szreiber-api.herokuapp.com/swagger/)
+## [Strona Główna](https://adam-szreiber-api.herokuapp.com/)
+## [Swagger](https://adam-szreiber-api.herokuapp.com/swagger/)
 
 ### Wykorzystano:
 * Python - Django
@@ -18,13 +18,17 @@
 #### Postman, tworzenie user'a
 
 - w pierwszej kolejności zmieniłem verb i wpisałem url.
+
 ![](md_files/heroku/userCreateMethod.png) 
 
 - następnie w zakładce body wrzuciłem model usera opisany w formacie json.
+
 ![](md_files/heroku/userCreateBody.png) 
 
 - ostatnia modyfikacja to zmiana nagłówka content-type .
+
 ![](md_files/heroku/userCreateHeaders.png) 
+
 Wyrzuciłem domyślny wpis Content-Type: text/plain, i w ostatniej lini dopisałem application/json.
 Można również ten krok zrobić w zakładce body (patrz zakładka 'Body'), wybierając odpowiedni format wpisu (również jest 'json').
 
