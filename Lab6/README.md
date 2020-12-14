@@ -1,6 +1,6 @@
 # Lab_6 Zezwolenia i uwierzytelnianie w DRF
 
-## [Strona Główna](https://adam-szreiber-api.herokuapp.com/)
+## [Strona Główna - Licznik](https://adam-szreiber-api.herokuapp.com/)
 
 ## [Rejestracja](https://adam-szreiber-api.herokuapp.com/)
 ## [Logowanie](https://adam-szreiber-api.herokuapp.com/)
@@ -18,17 +18,18 @@
 ## Poniżej przedstawiam osiągnięte efekty:
 
 * Licznik wejść:
+
 ![](md_files/counter.png) 
 
 
-* Użytkownik zalogowany, Widok postów:
+* Użytkownik zalogowany, Widok postów -autoryzacji:
 ![](md_files/loggedInPostsView.png) 
 
-* Użytkownik zalogowany, Widok uźytkowników:
+* Użytkownik zalogowany, Widok użytkowników - autoryzacji:
 ![](md_files/loggedInUsersView.png) 
 
-* Użytkownik zalogowany, Widok uźytkowników:
+* Użytkownik zalogowany, Widok postów - bez autoryzacji:
 ![](md_files/loggedOutPosts.png) 
 
-* Użytkownik zalogowany, Widok uźytkowników:
+* Użytkownik zalogowany, Widok użytkowników - bez autoryzacji:
 ![](md_files/loggedOutUsers.png) 
