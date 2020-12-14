@@ -18,7 +18,6 @@
 ## Poniżej przedstawiam osiągnięte efekty:
 
 * Licznik wejść:
-
 ![](md_files/counter.png) 
 
 
