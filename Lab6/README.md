@@ -4,8 +4,8 @@
 
 ## [Rejestracja](https://lab6-adam-szreiber.herokuapp.com/api/v1/rest-auth/registration/)
 ## [Logowanie](https://lab6-adam-szreiber.herokuapp.com/api-auth/login/)
-## [GET /api/users](https://lab6-adam-szreiber.herokuapp.com/api/v1/users/)
-## [GET /api/posts](https://lab6-adam-szreiber.herokuapp.com/api/v1/posts/)
+## [GET /api/users](https://lab6-adam-szreiber.herokuapp.com/api/v1/users/) --> Wymagana autoryzacja.
+## [GET /api/posts](https://lab6-adam-szreiber.herokuapp.com/api/v1/posts/) --> Dostęp free.
 
 
 
