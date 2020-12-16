@@ -21,10 +21,10 @@
 ![](md_files/counter.png) 
 
 
-* Użytkownik zalogowany, Widok postów - autoryzacji:
+* Użytkownik zalogowany, Widok postów - po autoryzacji:
 ![](md_files/loggedInPostsView.png) 
 
-* Użytkownik zalogowany, Widok użytkowników - autoryzacji:
+* Użytkownik zalogowany, Widok użytkowników - po autoryzacji:
 ![](md_files/loggedInUsersView.png) 
 
 * Użytkownik zalogowany, Widok postów - bez autoryzacji:
