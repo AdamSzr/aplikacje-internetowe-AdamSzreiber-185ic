@@ -1,11 +1,11 @@
 # Lab_6 Zezwolenia i uwierzytelnianie w DRF
 
-## [Strona Główna - Licznik](https://adam-szreiber-api.herokuapp.com/)
+## [Strona Główna - Licznik](https://lab6-adam-szreiber.herokuapp.com/)
 
-## [Rejestracja](https://adam-szreiber-api.herokuapp.com/)
-## [Logowanie](https://adam-szreiber-api.herokuapp.com/)
-## [GET /api/users](https://adam-szreiber-api.herokuapp.com/)
-## [GET /api/posts](https://adam-szreiber-api.herokuapp.com/)
+## [Rejestracja](https://lab6-adam-szreiber.herokuapp.com/api/v1/rest-auth/registration/)
+## [Logowanie](https://lab6-adam-szreiber.herokuapp.com/api-auth/login/)
+## [GET /api/users](https://lab6-adam-szreiber.herokuapp.com/api/v1/users/)
+## [GET /api/posts](https://lab6-adam-szreiber.herokuapp.com/api/v1/posts/)
 
 
 
@@ -21,7 +21,7 @@
 ![](md_files/counter.png) 
 
 
-* Użytkownik zalogowany, Widok postów -autoryzacji:
+* Użytkownik zalogowany, Widok postów - autoryzacji:
 ![](md_files/loggedInPostsView.png) 
 
 * Użytkownik zalogowany, Widok użytkowników - autoryzacji:
@@ -32,3 +32,6 @@
 
 * Użytkownik zalogowany, Widok użytkowników - bez autoryzacji:
 ![](md_files/loggedOutUsers.png) 
+
+* App-heroku Widok listy użytkowników, wymagana autoryzacja.
+![](md_files/online.png) 

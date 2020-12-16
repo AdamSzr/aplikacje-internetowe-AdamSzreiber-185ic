@@ -6,3 +6,4 @@
 
  * [Lab_4](https://github.com/AdamSzr/aplikacje-internetowe-AdamSzreiber-185ic/tree/master/Lab4) REST API z DRF⟶ [LINK](https://adam-szreiber-api.herokuapp.com/) :white_check_mark:
  * [Lab_5](https://github.com/AdamSzr/aplikacje-internetowe-AdamSzreiber-185ic/tree/master/Lab5) Web Scraping :white_check_mark:
+ * [Lab_6](https://github.com/AdamSzr/aplikacje-internetowe-AdamSzreiber-185ic/tree/master/Lab6)  Zezwolenia i uwierzytelnianie w DRF :mag:
