@@ -1,0 +1,5 @@
+celery -A image_parroter worker -l INFO
+
+celery --app=image_parroter.celery worker --loglevel=info
+
+http://localhost:8000/task/df4492c7-ee8e-45ef-b13d-8f406e2bc7b3/
