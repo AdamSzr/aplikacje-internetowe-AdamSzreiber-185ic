@@ -22,7 +22,7 @@ Widok w bazie danych.
 
 ![](md_files/zadania/zad_2_db.png) 
 
-lrange ➔ w tym przypadku wybierane sa wartości od elementu 1 (indexowanie startuje od 0), 3 kolejne elementy.
+lrange ➔ w tym przypadku wybierane sa wartości od elementu 1 (indexowanie zaczyna się od 0), 3 kolejne elementy.
 
 ![](md_files/zadania/zad3.png) 
 
@@ -34,6 +34,7 @@ Podgląd bazy DB0
 ![](md_files/zadania/zad_4_db0.png) 
 
 Podgląd bazy DB1, brak klucza 'key', ponieważ konstruktor domyślnie łączy z baza DB0. Tam wlasnie był utworzony klucz.
+
 pełen konstruktor ➔ Redis(host, port, db)
 
 ![](md_files/zadania/zad_4_db1.png) 
@@ -64,6 +65,7 @@ Widok w bazie danych.
 ![](md_files/zadania/zad8db.png) 
 
 pubsub(**kwargs) ➔ zwraca publikujący/subskrybujacy objekt, można zasubskrybować kanał, aby nasłuchiwać na wiadomości wrzucone do kanału.
+
 listen() ➔ nasłuchuje na wiadomość, po otrzymaniu zwraca.
 ![](md_files/zadania/zad9.png) 
 
