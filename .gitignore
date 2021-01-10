@@ -1,4 +1,5 @@
 */myvenv
 __pycache__/
 */notatki.txt
+node_modules/
 */.vs
