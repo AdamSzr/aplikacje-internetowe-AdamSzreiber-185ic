@@ -8,4 +8,5 @@
  * [Lab_5](https://github.com/AdamSzr/aplikacje-internetowe-AdamSzreiber-185ic/tree/master/Lab5) Web Scraping :white_check_mark:
  * [Lab_6](https://github.com/AdamSzr/aplikacje-internetowe-AdamSzreiber-185ic/tree/master/Lab6)  Zezwolenia i uwierzytelnianie w DRF ⟶ [LINK](https://lab6-adam-szreiber.herokuapp.com/) :white_check_mark:
  * [Lab_7](https://github.com/AdamSzr/aplikacje-internetowe-AdamSzreiber-185ic/tree/master/Lab7)  Python + Redis + Django ⟶ :mag:
+ * [Lab_9](https://github.com/AdamSzr/aplikacje-internetowe-AdamSzreiber-185ic/tree/master/Lab7)  Django + React (aplikacja CRUD) ⟶ :mag:
  * [Lab_10](https://github.com/AdamSzr/aplikacje-internetowe-AdamSzreiber-185ic/tree/master/Lab10)   Django + React (aplikacja typu ToDo) ⟶ :mag:
