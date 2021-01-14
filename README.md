@@ -9,4 +9,4 @@
  * [Lab_7](https://github.com/AdamSzr/aplikacje-internetowe-AdamSzreiber-185ic/tree/master/Lab7)  Python + Redis + Django ⟶ :mag:
  * [Lab_8](https://github.com/AdamSzr/aplikacje-internetowe-AdamSzreiber-185ic/tree/master/Lab8) Czat z użyciem django channels ⟶ U nas js websocket, czat działa jako emity zdarzeń, a serwer przetwarza odpowiedni event przypisany do zdarzenia. ⟶ :mag:
  * [Lab_9](https://github.com/AdamSzr/aplikacje-internetowe-AdamSzreiber-185ic/tree/master/Lab9)  Django + React -- u nas Node.js + Gatsby ⟶ :mag:
- * [Lab_10](https://github.com/AdamSzr/aplikacje-internetowe-AdamSzreiber-185ic/tree/master/Lab10)   Django + React (aplikacja typu ToDo) ⟶ :mag:
+ * [Lab_10](https://github.com/AdamSzr/aplikacje-internetowe-AdamSzreiber-185ic/tree/master/Lab_10)   Django + React (aplikacja typu ToDo) ⟶ :mag:
